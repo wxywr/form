@@ -1,0 +1,72 @@
+*{margin: 0;padding: 0;}
+
+body{background:#eee;font-size: 16px;}
+
+ul{list-style: none;}
+
+h1{text-align: center;
+   margin:20px auto;
+   font: 32px "Microsoft Yahei"; }
+
+.wrap{width:700px;height:550px;
+	  margin:0 auto;}
+
+form{width:700px;height:460px;
+	 background:#fff;}
+
+.form{padding:20px;}
+
+.form li{margin-bottom:20px;}
+
+input,#ev{background:#b6ccdd;}
+
+#username,#password{width: 180px;height:25px;
+					border:1px solid #000;
+					outline:none;}
+
+#male,#female{border-radius: 100%;}
+
+#blue,#male,#female{width:18px;height:18px;
+					vertical-align:text-bottom;}
+
+input,.xz,#avatar,#ev{cursor:pointer;}
+
+#ev{width: 560px;
+	height:100px;
+	vertical-align:middle;
+	border:1px solid #000;
+	outline:none;}
+
+.xz {width: 120px;
+	height: 26px;
+	line-height:26px;
+	text-indent:5px;
+	display:inline-block;
+	position: relative;}
+
+.city{width: 120px;
+	  background: #b6ccdd;
+	  position: absolute;left:0;top:26px;
+	  display: none;}
+
+.city li{width: 120px;
+		 height: 26px;
+		 line-height: 26px;
+		 margin: 0;}
+
+.city li:hover{background: #CCC;}
+
+.xz,#submit{color:#fff;background: #000;}
+
+.xz:hover{background: green;}
+
+#submit:hover{background: green;}
+
+.spacing{margin-right:10px;}
+
+#align{margin-left: 15px;}
+
+#you{margin-left: -15px;}
+
+#submit{width: 50px;height: 30px;
+		border:none;margin-left:70px;}

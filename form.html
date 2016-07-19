@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>表单</title>
+	<link rel="stylesheet" type="text/css" href="style/form.css">
+	<script src="jquery/myjquery.js"></script>
+	<script src="jquery/form.js"></script>
+</head>
+<body>
+<div class="wrap">
+	<h1>jQuery表单美化插件</h1>
+	<form action="">
+		<ul class="form">
+			<li>
+				<label for="username">用户名：</label>
+				<input type="text" name="username" id="username"/>
+			</li>	
+			<li>
+				<label for="password" id="align">密码：</label>
+				<input type="password" name="password" id="password"/>
+			</li>
+			<li>
+				<span class="label" id="align">性别：</span>
+				<input type="radio" name="sex" id="male" value="男"/>
+				<label>男</label>
+				<input type="radio" name="sex" id="female" value="女"/>
+				<label>女</label>
+			</li>
+			<li>
+				<label for="city" id="align">城市：</label>	
+				<div class="xz">选择
+					<ul class="city">
+						<li><option value="广州">广州</option></li>
+						<li><option value="北京">北京</option></li>
+						<li><option value="上海">上海</option></li>
+						<li><option value="深圳">深圳</option></li>
+						<li><option value="武汉">武汉</option></li>
+					</ul>
+				</div>
+			</li>
+			<li>
+				<span class="label" id="align">爱好：</span>
+				<input type="checkbox" name="like" id="blue" value="上网"/>
+				<label for="internet" class="spacing">上网</label>
+				<input type="checkbox" name="like" id="blue" value="电影"/>
+				<label for="movie" class="spacing">电影</label>
+				<input type="checkbox" name="like" id="blue" value="音乐"/>
+				<label for="music" class="spacing">音乐</label>
+				<input type="checkbox" name="like" id="blue" value="运动"/>
+				<label for="sport" class="spacing">运动</label>
+				<input type="checkbox" name="like" id="blue" value="购物"/>
+				<label for="shopping" class="spacing">购物</label>
+			</li>
+			<li>
+				<label for="avatar" id="align">头像：</label>
+				<input type="file" name="avatar" id="avatar" />
+			</li>
+			<li>
+				<label for="evaluation" id="you">自我评价：</label>
+				<textarea name="evaluation" id="ev"></textarea>
+			</li>
+			<li>
+				<input type="submit" value="提交" id="submit"/>
+			</li>
+		</ul>
+	</form>
+</div>
+
+</body>
+</html>
